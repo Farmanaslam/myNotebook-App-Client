@@ -56,7 +56,7 @@ const TopNav = () => {
                       </Link>
                     </div>
                   ) : (
-                    <button className="logout-btn" onClick={handleLogOut}>
+                    <button className="logout-btn mx-1" onClick={handleLogOut}>
                       Logout
                     </button>
                   )}
