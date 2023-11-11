@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+*,
+**::before,
+**::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+
+  color: #fff;
+  padding: 15px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+.navbar a:hover {
+  color: #fff;
+}
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 600;
+  font-size: 17px;
+  padding-bottom: 60vh;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+.signup-form {
+  font-weight: 600;
+  font-size: 17px;
+  padding-bottom: 42vh;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+.login-form .input-area,
+.signup-form .input-area {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+.login-form .input-area,
+.signup-form .input-area {
+  font-weight: 600;
+}
+.login-btn,
+.sign-in-btn,
+.add-btn {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  border: none;
+}
+.about-head {
+  font-weight: 800;
+}
+.about-img {
+  width: 100%;
+  height: 75%;
+}
+.about-para {
+  display: flex;
+  align-items: center;
+
+  font-weight: 600;
+}
+.footer {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  padding-bottom: 1px;
+}
+.footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.note-page {
+  font-weight: 700;
+}
+.alert-msg {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #1b265e 0%,
+    #c850c0 46%,
+    #cea55a 100%
+  );
+}
+.logout-btn {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  margin-top: 7px;
+}
