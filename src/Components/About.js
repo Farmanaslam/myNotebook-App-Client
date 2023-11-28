@@ -33,6 +33,7 @@ const About = () => {
         </div>
         <div className="col-md-6">
           <img
+          alt="about-img"
             className="mt-4  about-img"
             src="https://www.zdnet.com/a/img/resize/22c8a5bdcd15b98181e868dd082821cd6e385d0a/2022/07/19/a4999757-d4d5-435e-afd8-499bdea766de/nebo.jpg?auto=webp&fit=crop&height=900&width=1200"
           />
@@ -42,6 +43,7 @@ const About = () => {
       <div className="p-4 row">
         <div className="col-md-6">
           <img
+           alt="about-img2"
             className="mt-4  about-img"
             src="https://collegeinfogeek.com/wp-content/uploads/2020/01/best-note-taking-apps-for-ipad-featured.jpg"
           />

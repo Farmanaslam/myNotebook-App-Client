@@ -80,6 +80,7 @@
     #ffcc70 100%
   );
   border: none;
+  cursor: pointer;
 }
 .about-head {
   font-weight: 800;
