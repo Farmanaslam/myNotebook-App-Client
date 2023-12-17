@@ -2,13 +2,13 @@ import React from "react";
 const About = () => {
   return (
     <>
-      <div className="about-head d-flex justify-content-center fs-2 mt-4 mb-4 ">
+      <div className="about-head d-flex justify-content-center fs-2 mt-4 mb-4 mx-4">
         myNotebook -create and design your notes easily
       </div>
       <div className="p-4 row">
         <div className="about-para col-md-6 mb-4">
           <p>
-            myNotebook Website provides tools to add delete update your notes.A
+            myNotebook Website provides tools to add delete update your notes. A
             note a day keeps the chaos away.
             <br></br>
             <br></br>
@@ -50,12 +50,12 @@ const About = () => {
         </div>
         <div className="about-para col-md-6 mb-4">
           <p>
-            To Start using myNotebook just login/signup with your emailid and
+            To Start using myNotebook just login/signup with your email Id and
             passward.
             <br></br>
             <br></br>
             All Your notes will be displayed on the home screen. You can easily
-            manage all your notes. Add Update or delete your instantly with
+            manage all your notes. Add Update or delete your notes instantly with
             myNotebook.
             <br></br>
             <br></br>

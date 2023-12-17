@@ -14,7 +14,8 @@ const SignUp = (props) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const { name, email, passward } = credentials;
-    const response = await fetch("http://localhost:5000/api/auth/createuser", {
+    const response = await fetch("https://my-notebook-website.vercel.app/api/auth/createuser", {
+    // const response = await fetch("http://localhost:5000/api/auth/createuser", {
       method: "POST",
 
       headers: {
@@ -30,7 +31,7 @@ const SignUp = (props) => {
       navigate("/");
       props.showAlert("Account created successfully...", "success");
     } else {
-      props.showAlert("Invalid credentials...", "danger");
+      props.showAlert("Email Already In Use...", "danger");
     }
   };
   const handleChange = (e) => {
@@ -87,6 +88,13 @@ const SignUp = (props) => {
 
         <Button className="sign-in-btn" type="submit">
           Sign In
+        </Button>
+        <div className="my-2">or back to</div>
+        <Button className="login-btn" href="/login">
+          <a style={{ textDecoration: "none", color: "#fff" }} href="/login">
+            {" "}
+            Login{" "}
+          </a>
         </Button>
       </Form>
     </div>
